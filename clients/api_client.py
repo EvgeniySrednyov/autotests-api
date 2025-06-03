@@ -10,7 +10,7 @@ class APIClient:
         Базовый API клиент, принимающий объект httpx.Client.
 
         :param client: экземпляр httpx.Client для выполнения HTTP-запросов
-                """
+        """
         self.client = client
 
     def get(self, url: URL | str, params: QueryParams | None = None) -> Response:
