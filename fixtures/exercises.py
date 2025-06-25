@@ -22,7 +22,7 @@ def function_exercise(
         exercises_client: ExercisesClient,
         function_user: UserFixture,
         function_course: CoursesClient
-):
+) -> ExerciseFixture:
     request = CreateExerciseRequestSchema()
     response = exercises_client.create_exercise(request)
     return ExerciseFixture(request=request, response=response)
