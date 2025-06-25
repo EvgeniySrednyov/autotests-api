@@ -1,8 +1,5 @@
 from http import HTTPStatus
-
 import pytest
-from pydantic.json_schema import model_json_schema
-
 from clients.courses.courses_client import CoursesClient
 from clients.courses.courses_schema import UpdateCourseRequestSchema, UpdateCourseResponseSchema, GetCoursesQuerySchema, \
     GetCoursesResponseSchema, CreateCourseRequestSchema, CreateCourseResponseSchema
