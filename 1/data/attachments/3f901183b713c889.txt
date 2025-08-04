@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA0VDE2OjMyOjE5LjI2MTUwNyIsInVzZXJfaWQiOiJkNGU5OTBkNy00ZDUxLTQ0MDAtYTQzYy04ZjY1ZTQ0MjFiOGEifQ.xpSkLi8cy_1aiwTQR9XcNw59HBbkTgwFqYzvnO16SpQ' \
+  -H 'content-length: 368' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Camera everyone stop agent.","maxScore":96,"minScore":2,"description":"Goal control investment blood turn. Sit whose dream. Act music actually dog.\nLikely million street me. Away pick analysis fish him suffer against.","estimatedTime":"8 weeks","previewFileId":"20839cf1-b92d-481f-90d6-fe29eb0bd3ee","createdByUserId":"d4e990d7-4d51-4400-a43c-8f65e4421b8a"}'

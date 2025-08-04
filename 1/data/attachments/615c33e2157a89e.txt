@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA0VDE2OjMyOjE4LjU0NDM0NSIsInVzZXJfaWQiOiJiOWZiY2RhZi01YTE3LTRkNjItYmFhNS0yYjMxMmIxYmVlODEifQ.9QlSa-EkKuEqq9LSZMyj-ri277Yecoj0jW_IdXlbLqg' \
+  -H 'content-length: 363' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Their against though for deep past.","maxScore":82,"minScore":19,"description":"Weight begin side trouble save read program. Shoulder pretty foot brother when. Tell whom star chance. Public born pay method police.","estimatedTime":"3 weeks","previewFileId":"5c29c6ea-dbd3-4334-928c-dc57fac0581b","createdByUserId":"b9fbcdaf-5a17-4d62-baa5-2b312b1bee81"}'

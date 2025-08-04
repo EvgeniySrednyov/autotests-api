@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA0VDE2OjMyOjIwLjczNDYyNCIsInVzZXJfaWQiOiI4MzVlOTIwMy0xZTcxLTQ3YjEtODgyOC05YmM3NTU4NmI2MzYifQ.E1di5Kj4hhsWwW7fXN7rzgKp9cu3c9CWLLcfMhKihJI' \
+  -H 'content-length: 407' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Possible write federal place sort mean.","maxScore":94,"minScore":30,"description":"Voice when top. Natural area a capital fact.\nSee might financial such scientist score detail. Short understand strong scientist. Glass compare take medical there material.","estimatedTime":"10 weeks","previewFileId":"041d21da-f3f1-4584-8ce9-956011b1d502","createdByUserId":"835e9203-1e71-47b1-8828-9bc75586b636"}'

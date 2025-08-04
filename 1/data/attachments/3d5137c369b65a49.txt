@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/05bfcdf1-fbb5-41ca-883c-d2f6ce28d7df' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA0VDE2OjMyOjE5Ljk4NDk1OCIsInVzZXJfaWQiOiJmZTU4NWRhZC1hMmMwLTRkNDEtYWNiZC0xNDhhYjVkZDExMTgifQ.CEP6P4d_W5UQ1tw_0lahoeRG8u4pYgiAHq11PqZr7ak' \
+  -H 'content-length: 303' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Quickly go condition somebody pretty would.","maxScore":62,"minScore":16,"orderIndex":3,"description":"Important of while.\nImpact media sometimes activity pressure policy. Organization represent strong wish something meeting including. Mean themselves here admit.","estimatedTime":"10 weeks"}'

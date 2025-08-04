@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA0VDE2OjMyOjE5Ljk4NDk1OCIsInVzZXJfaWQiOiJmZTU4NWRhZC1hMmMwLTRkNDEtYWNiZC0xNDhhYjVkZDExMTgifQ.CEP6P4d_W5UQ1tw_0lahoeRG8u4pYgiAHq11PqZr7ak' \
+  -H 'content-length: 400' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Student myself Democrat develop.","maxScore":80,"minScore":5,"description":"Forward feeling enough away. If single those work campaign.\nSeem than turn admit game. Challenge far price third between million half firm. Away effect five beyond left who.","estimatedTime":"4 weeks","previewFileId":"182deb6d-76aa-436e-9528-8073b0a1923a","createdByUserId":"fe585dad-a2c0-4d41-acbd-148ab5dd1118"}'

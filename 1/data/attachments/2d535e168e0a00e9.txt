@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA0VDE2OjMyOjE3LjEwOTU5OSIsInVzZXJfaWQiOiJlZDA5MmUyMC04ZjAzLTQ1ZWQtYTlkMi1kMzg3YmI4YmE4ZTgifQ.SOPBeW7QIw1nMtVJPKsDsisefdVYXKTOD6BA8oU-FZU' \
+  -H 'content-length: 380' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Couple from age though break.","maxScore":55,"minScore":12,"description":"Stock coach figure. East commercial cover company. Perform ok morning this image will.\nLater leave door specific huge. Reveal trouble after civil personal.","estimatedTime":"5 weeks","previewFileId":"82988bec-a339-4eab-85b8-2412f3d11b7b","createdByUserId":"ed092e20-8f03-45ed-a9d2-d387bb8ba8e8"}'

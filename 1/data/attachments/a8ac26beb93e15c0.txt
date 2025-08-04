@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA0VDE2OjMyOjE5Ljk4NDk1OCIsInVzZXJfaWQiOiJmZTU4NWRhZC1hMmMwLTRkNDEtYWNiZC0xNDhhYjVkZDExMTgifQ.CEP6P4d_W5UQ1tw_0lahoeRG8u4pYgiAHq11PqZr7ak' \
+  -H 'content-length: 340' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Fall church decide start condition.","courseId":"356122e5-9f08-4008-9585-10949bea91dd","maxScore":67,"minScore":20,"orderIndex":95,"description":"Head foreign anything author force bed. Question drop buy kid near among.\nIncluding paper season me a. Speak stuff attack. Move economy wear price defense.","estimatedTime":"5 weeks"}'

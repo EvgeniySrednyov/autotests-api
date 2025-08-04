@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA0VDE2OjMyOjE3LjgxODQ4NCIsInVzZXJfaWQiOiI3NzY1M2NjNS04NzU3LTQyMjQtYmUxNy1jMmE4OGVlNjFhMTgifQ.7RAnjPdHvUOrmCxVXtVM7a6T-7v5SRX6axjoBS9Rk80' \
+  -H 'content-length: 377' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Into positive teach word participant break.","maxScore":96,"minScore":15,"description":"People good arrive themselves author. Customer every anything likely fast consumer. Conference you increase improve ready guy after either.","estimatedTime":"4 weeks","previewFileId":"a9de2f2f-c123-47cc-bd07-860cb59471a7","createdByUserId":"77653cc5-8757-4224-be17-c2a88ee61a18"}'
