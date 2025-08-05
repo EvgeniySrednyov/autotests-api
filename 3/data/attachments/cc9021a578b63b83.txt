@@ -1,0 +1,20 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:28 Make DELETE request to http://localhost:8000/api/v1/exercises/f98d04c3-a677-4c5c-b32f-a7cedf0e99b5
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/exercises/f98d04c3-a677-4c5c-b32f-a7cedf0e99b5
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     HTTP_CLIENT:event_hooks.py:28 Make GET request to http://localhost:8000/api/v1/exercises/f98d04c3-a677-4c5c-b32f-a7cedf0e99b5
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 404 Not Found from http://localhost:8000/api/v1/exercises/f98d04c3-a677-4c5c-b32f-a7cedf0e99b5
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 404
+INFO     EXERCISES_ASSERTIONS:exercises.py:102 Check exercise not found response
+INFO     ERRORS_ASSERTIONS:errors.py:61 Check internal error response
+INFO     BASE_ASSERTIONS:base.py:37 Check that "details" equals to "Exercise not found"
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validate JSON schema

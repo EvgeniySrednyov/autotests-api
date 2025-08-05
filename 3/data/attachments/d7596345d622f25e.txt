@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/c40c0098-1301-42d5-9671-03cdf7dd72f8' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDE2OjQ0OjA2LjMyNDQ2MyIsInVzZXJfaWQiOiI0YjhmYjcwZi0xY2RhLTQzYTQtYTI3ZC04ZjcyNTcxYjdiZjgifQ.OPmoXZU_Z5o2rNo6JWIXQnM29l0x1qtmLufyAp538AY' \
+  -H 'content-length: 198' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Owner offer how ago nor four treatment.","maxScore":75,"minScore":20,"description":"Big government live bag. This left business word art. Memory hit deep place.","estimatedTime":"1 weeks"}'

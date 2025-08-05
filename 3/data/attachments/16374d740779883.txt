@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDE2OjQ0OjA2LjMyNDQ2MyIsInVzZXJfaWQiOiI0YjhmYjcwZi0xY2RhLTQzYTQtYTI3ZC04ZjcyNTcxYjdiZjgifQ.OPmoXZU_Z5o2rNo6JWIXQnM29l0x1qtmLufyAp538AY' \
+  -H 'content-length: 400' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Why local large fear area should mention.","maxScore":71,"minScore":9,"description":"Consumer not camera hope less. Side reveal fund.\nDevelop say answer but two deep. Example heavy that seem commercial. Education sure phone place avoid enough party.","estimatedTime":"5 weeks","previewFileId":"6a373422-1f5e-482c-8cc8-7eb11cefbf4d","createdByUserId":"4b8fb70f-1cda-43a4-a27d-8f72571b7bf8"}'

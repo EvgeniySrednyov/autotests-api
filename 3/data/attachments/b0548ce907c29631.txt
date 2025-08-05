@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDE2OjQ0OjA5LjMxOTU3MyIsInVzZXJfaWQiOiJiYzNlMzlkYy04MDIzLTRhZTItYjBkYS04Y2U3MWNkMWQ5ZWYifQ.Muf_O3V-DtUpAN8ud-6rgwxxBrT35ndrzed3vk2ZneE' \
+  -H 'content-length: 398' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Nothing nothing budget.","maxScore":88,"minScore":24,"description":"Avoid whole everybody explain magazine end rest. Detail person must hot sport. Human your number pattern beat budget. Population agree public decision physical room white business.","estimatedTime":"4 weeks","previewFileId":"0853ecfb-4eff-4030-8a7d-471119e75aa9","createdByUserId":"bc3e39dc-8023-4ae2-b0da-8ce71cd1d9ef"}'

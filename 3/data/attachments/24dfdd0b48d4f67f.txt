@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:85 Check create course response
+INFO     BASE_ASSERTIONS:base.py:37 Check that "title" equals to "Ahead deal hot people although air agency."
+INFO     BASE_ASSERTIONS:base.py:37 Check that "max_score" equals to "87"
+INFO     BASE_ASSERTIONS:base.py:37 Check that "min_score" equals to "12"
+INFO     BASE_ASSERTIONS:base.py:37 Check that "description" equals to "Nation sport dog ground attack. Hard because base together share source run mission. Tend miss difference movie.
+Officer fund from to others plant tough. Forward into staff option possible drop."
+INFO     BASE_ASSERTIONS:base.py:37 Check that "estimated_time" equals to "4 weeks"
+INFO     BASE_ASSERTIONS:base.py:37 Check that "preview_file_id" equals to "a16e2e70-e3b8-4e10-9c0f-e5b3b2132330"
+INFO     BASE_ASSERTIONS:base.py:37 Check that "created_by_user_id" equals to "b236fe86-0223-4039-a367-0be1a5c721fd"
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validate JSON schema

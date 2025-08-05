@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDE2OjQ0OjA4LjA5NDQwMCIsInVzZXJfaWQiOiI4ZmM3NjcxNi1iMWZiLTQ5YTYtODgyOS00MWYyODA4NTE2YmQifQ.abRCglkU75kyVrHlNHQSZW8twzMnEsTcaUezfUXHaV4' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Arrive central color should.","maxScore":62,"minScore":22,"description":"Run task instead reduce personal one. Open bank name east marriage.\nArgue drug grow assume poor peace as. Leave fly street several. Others hotel laugh fish.","estimatedTime":"10 weeks","previewFileId":"b2c4230e-c44c-4188-97dd-87dbc89d243d","createdByUserId":"8fc76716-b1fb-49a6-8829-41f2808516bd"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDE2OjQ0OjA4LjA5NDQwMCIsInVzZXJfaWQiOiI4ZmM3NjcxNi1iMWZiLTQ5YTYtODgyOS00MWYyODA4NTE2YmQifQ.abRCglkU75kyVrHlNHQSZW8twzMnEsTcaUezfUXHaV4' \
+  -H 'content-length: 303' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Have friend particular fact parent for.","courseId":"72164b47-e2df-4601-8877-ef3035b4a02d","maxScore":52,"minScore":15,"orderIndex":59,"description":"Service bank but knowledge way music stay suffer. Knowledge simple anyone. Effect seat reflect natural agent those.","estimatedTime":"2 weeks"}'
