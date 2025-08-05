@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDE2OjMwOjUxLjAzOTg2MSIsInVzZXJfaWQiOiJiZDY0NGYwZC1mNDdiLTQ4ZGYtYjY0Ni0zNDgzMTVmNjFhYjEifQ.Si3EoCpk2J4Or3PQrogpHqlKj3KsC1vccyemfel3mvQ' \
+  -H 'content-length: 372' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Partner doctor look ready career wide beyond.","maxScore":96,"minScore":3,"description":"Job serious firm test open choice. Many head crime.\nCard likely identify large walk much community wind. Likely present land career.","estimatedTime":"5 weeks","previewFileId":"689d7b8f-f425-4249-8f4e-b83d3e70230d","createdByUserId":"bd644f0d-f47b-48df-b646-348315f61ab1"}'

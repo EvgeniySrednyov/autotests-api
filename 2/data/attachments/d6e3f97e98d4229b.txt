@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDE2OjMwOjUzLjgwNzE2NiIsInVzZXJfaWQiOiIwYWVlM2VkNS1kZDkxLTRiYTItYjY1NC05Nzg4YzJmNGRkZGMifQ.lBGbWWHazxPfueLfuLp4TntR8YD5-ULY3QEVQ9_dnDA' \
+  -H 'content-length: 417' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Rate light group they.","maxScore":65,"minScore":14,"description":"Foreign result wear leave. In area sure would keep movie. Instead nice make piece anything.\nMr success crime research if pay short. Key black pull boy here general. Skin arm concern true nature pick.","estimatedTime":"4 weeks","previewFileId":"fdc745cb-8a83-4d29-9721-7e55589ea25e","createdByUserId":"0aee3ed5-dd91-4ba2-b654-9788c2f4dddc"}'

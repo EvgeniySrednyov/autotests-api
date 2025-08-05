@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDE2OjMwOjU0LjA4MDIzOCIsInVzZXJfaWQiOiJmOGZiMDY0NS0yYTcyLTQ2NjktYTljNi1iMWY4NDI3Mzc2MTIifQ.KWjPBUiJAX-pwBsnrBsS8MRAJ4ExK-neuRJFtGpiSx8' \
+  -H 'content-length: 354' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Thousand meet without listen involve.","maxScore":55,"minScore":6,"description":"Entire new son miss. Ready child century thing set teach. Light present book official. Official college collection require.","estimatedTime":"1 weeks","previewFileId":"4f43e0c2-a5f2-4b30-926c-3109ff9f60ea","createdByUserId":"f8fb0645-2a72-4669-a9c6-b1f842737612"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDE2OjMwOjUwLjM4MTA2MiIsInVzZXJfaWQiOiJmMWQ1YmI5Ny1hM2UwLTQ2YzItOGVjNy1jMjQ0YjEzZDliZmEifQ.uQS-YOGOD5CWTsNiN7u1kEMfsMTloLPN278QSwnSBbU' \
+  -H 'content-length: 337' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Idea prepare eye entire.","maxScore":80,"minScore":30,"description":"Heart lay attention oil three number. Into office star thus. Suddenly message air. Traditional agent use site student.","estimatedTime":"9 weeks","previewFileId":"4cb4913d-9f1c-4710-a990-cbb951fc9eea","createdByUserId":"f1d5bb97-a3e0-46c2-8ec7-c244b13d9bfa"}'

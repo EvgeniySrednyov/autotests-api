@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDE2OjMwOjUyLjI4NDMzMyIsInVzZXJfaWQiOiIwODI2YjlmZS01NjRhLTRjNmQtYTkxMi03MmZkMGI4Zjg2MjkifQ.tBk0dHKRcZSG8Fen4yZPeawJ8hlht4yNK98jO9OkkRo' \
+  -H 'content-length: 392' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Population rate agent cold card time teach.","maxScore":93,"minScore":10,"description":"Song large would easy article out. See type attack subject information animal. Key sense know why produce. Tax eight Republican wide left structure role.","estimatedTime":"10 weeks","previewFileId":"1c2d4400-727e-4e52-9749-294dcdd4504c","createdByUserId":"0826b9fe-564a-4c6d-a912-72fd0b8f8629"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDE2OjMwOjUzLjgwNzE2NiIsInVzZXJfaWQiOiIwYWVlM2VkNS1kZDkxLTRiYTItYjY1NC05Nzg4YzJmNGRkZGMifQ.lBGbWWHazxPfueLfuLp4TntR8YD5-ULY3QEVQ9_dnDA' \
+  -H 'content-length: 324' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Which large question win better here.","courseId":"6657a3ed-e956-40a1-a45f-54c0c973eb4c","maxScore":81,"minScore":2,"orderIndex":76,"description":"Your security wind still bag day. Certain create your success.\nMr tree need spring standard training. Model guy political popular if year.","estimatedTime":"4 weeks"}'

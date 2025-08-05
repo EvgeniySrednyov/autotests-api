@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDE2OjMwOjUxLjYyNTQzNiIsInVzZXJfaWQiOiIwNmYyY2JmMy02MDcxLTQxZDYtODczZi1jZjU1NDczY2JmN2QifQ.-RxH4LJ13B8lXEQ9PpxJ5AHY7MURg2EkkmfkLVSxGho' \
+  -H 'content-length: 390' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Relate right behavior get manage job.","maxScore":74,"minScore":14,"description":"Audience personal its many compare than wife job. Scene human stuff Congress sit. Suggest board listen east.\nWeek item system whether. Win pull better sport.","estimatedTime":"3 weeks","previewFileId":"5835df46-159b-43c2-87c0-e05788f7ceef","createdByUserId":"06f2cbf3-6071-41d6-873f-cf55473cbf7d"}'

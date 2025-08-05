@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDE2OjMwOjQ5Ljc5MTEyNCIsInVzZXJfaWQiOiI2YWZhNTNkOS03YTI2LTRiMjAtOTU3NC0zNDJjM2NlNTg2ZWEifQ.d4-fP_XGeaouWAH4kirCAiIbGcXZWyGSY0-Ca0q_99Y' \
+  -H 'content-length: 350' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Weight race recognize.","maxScore":55,"minScore":5,"description":"Accept end thank positive into listen. Certainly rather break black put.\nAnother section human section study. Later south person you.","estimatedTime":"3 weeks","previewFileId":"ab21fd2b-7995-4eef-bff3-748f096c3eca","createdByUserId":"6afa53d9-7a26-4b20-9574-342c3ce586ea"}'
